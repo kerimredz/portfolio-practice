@@ -1,0 +1,81 @@
+/* PMF 2020, MAT, IT */
+/* PROJEKAT 1: Portfolio */
+/* Autor: Kerim Redžepagić */
+
+/* GLOBAL SETUP CSS */
+
+/* IMPORT FONTOVA sa Google Fonts */
+/* FONT FAMILY - POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* 100 - Thin */
+/* 200 - Extra Light */
+/* 300 - Light */
+/* 400 - Regular */
+/* 500 - Medium */
+/* 600 - Semi-Bold */
+/* 700 - Bold */
+/* 800 - Extra-Bold */
+/* 900 - Black */
+
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Postavka fonta - GLOBALNO */
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: #171717;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+/* NASLOVI */
+h1{
+    width: 100%;
+    height: auto;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+/* PODNASLOVI */
+h2{
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+/* PARAGRAF*/
+p{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* SCROLL DESIGN */
+/* Preuzeto i dorađeno sa https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #292929; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 62, 62); 
+    border-radius: 3px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(252, 16, 16); 
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- PMF 2020, MAT, IT -->
+<!-- PROJEKAT 1: Portfolio -->
+<!-- Autor: Kerim Redžepagić-->
+
+<!-- Stranica: POČETNA -->
+<html>
+
+    <head>
+        <!-- OSNOVLI SETUP -->
+        <title>Kerim Redžepagić - Portfolio</title>
+        <link rel="icon" type="image/png" href="assets/fav_icon.png"/>
+        <!-- Setovanje Globalnih CSS-ova -->
+        <link rel="stylesheet" href="css/general.css">
+        <!-- Navigacija - CSS -->
+        <link rel="stylesheet" href="css/nav.css">
+        <!-- Footer - CSS -->
+        <link rel="stylesheet" href="css/footer.css">
+
+        <!-- VIDEO GALERIJA SETUP -->
+        <link rel="stylesheet" href="css/video.css">
+    </head>
+
+    <body>
+        <!-- Navigacija - HTML -->
+        <div class="navigacija" id="pocetak">
+            <ul>
+                <li><a href="index.html">POČETNA<span>.</span></a></li>
+                <li><a href="blog.html">BLOG<span>.</span></a></li>
+                <li><img src="assets/nav_logo.svg"></li>
+                <li><a href="dizajn_galerija.html">WORKS GALERIJA<span>.</span></a></li>
+                <li><a href="video_galerija.html">LEARN GALERIJA<span>.</span></a></li>
+            </ul>
+        </div>
+
+        <!-- Video galerija - Naslov -->
+        <div class="page-info">
+            <div class="headings">
+                <h1>Video galerija<span>.</span></h1>
+                <p>Galerija interesantnih stvari za nauciti . . . </p>
+            </div>
+        </div>
+
+        <!-- Video galerija - Galerija -->
+        <figure class="video-element">
+            <div class="okvir">
+                <!-- Preuzeto sa YT -->
+                <!-- Video je skinut sa YT i zbog veličine .mp4 dokumenta, isjecen je i kompresovan da bi mu smanjili velicinu -->
+                <video style="outline: none;" width="560" height="315" controls autoplay poster="assets/gallery_tumb.jpg">
+                    <source src="assets/ytdownloaded.mp4" type="video/mp4">
+                </video>
+            </div>
+            <figcaption class="informacije">
+                <h2>UI Design</h2>
+                <h1>The 2019 UI Design Crash Course for Beginners</h1>
+                <p>Kurs je namjenjen za početnike u oblasti UI (User Interface) Design-a, te za sve one koji se žele okušati u programskom okruženju FIGMA, koja iz dana u dan postaje ozbiljan konkurent najpoznatijim i najboljim riješenjima kao što su Adobe XD i Apple Sketch. <strong><em><u>Za pregled čitavog kursa posjetite YouTube link!</u></em></strong></p>
+                <a href="https://www.youtube.com/watch?v=9iUJJHEIpls&t=148s" target="_blank">YouTube Link ></a>
+            </figcaption>
+        </figure>
+        <!-- 00 -->
+        <figure class="video-element">
+            <div class="okvir">
+                <!-- Preuzeto sa YT -->
+                <img style="object-fit: cover;" width="560" height="315" src="assets/vide_gallery_tumb.jpg"/>
+            </div>
+            <figcaption class="informacije">
+                <h2>UI Design</h2>
+                <h1>The 2019 UI Design Crash Course for Beginners</h1>
+                <p>Kurs je namjenjen za početnike u oblasti UI (User Interface) Design-a, te za sve one koji se žele okušati u programskom okruženju FIGMA, koja iz dana u dan postaje ozbiljan konkurent najpoznatijim i najboljim riješenjima kao što su Adobe XD i Apple Sketch...</p>
+                <a href="https://www.youtube.com/watch?v=9iUJJHEIpls&t=148s" target="_blank">YouTube Link ></a>
+            </figcaption>
+        </figure>
+        <!-- 01 -->
+        <figure class="video-element">
+            <div class="okvir">
+                <!-- Preuzeto sa YT -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_Hp_dI0DzY4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <figcaption class="informacije">
+                <h2>UI Design</h2>
+                <h1>The 2019 UI Design Crash Course for Beginners</h1>
+                <p>Kurs je namjenjen za početnike, te osobe koje žele steći osnovno znanje sa radom u programskom riješenju za user interface design - Adobe XD. Predavač kroz kratki kurs kreira interface vlastite stranice, te paralelno objašnjava kako i zašto radi potrebne stvari.</p>
+                <a href="https://www.youtube.com/watch?v=_Hp_dI0DzY4&t=2812s" target="_blank">YouTube Link ></a>
+            </figcaption>
+        </figure>
+        <!-- 02 -->
+        <figure class="video-element">
+            <div class="okvir">
+                <!-- Preuzeto sa YT -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lj37QZ047f8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <figcaption class="informacije">
+                <h2>HTML, CSS, Animations</h2>
+                <h1>Animating SVG with the Awesome GSAP 3.0</h1>
+                <p>Predavač kroz kurs objašnjava manipulacije sa SVG dokumentima unutar HTML-a, te upotrebu GSAP 3.0 Biblioteka kako bi kreirao animacije i napravio webstranicu zanimljivijom i dinamicnijom.</p>
+                <a href="https://www.youtube.com/watch?v=lj37QZ047f8&t=1s" target="_blank">YouTube Link ></a>
+            </figcaption>
+        </figure>
+        <!-- 03 -->
+        <figure class="video-element">
+            <div class="okvir">
+                <!-- Preuzeto sa YT -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8gNrZ4lAnAw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <figcaption class="informacije">
+                <h2>HTML, CSS</h2>
+                <h1>The 2019 Frontend Developer Crash Course</h1>
+                <p>Kratki kurs o kodiranju web stranice. Predavac uz pomoc HTML-a i CSS-a kreira stranicu koja je dizajnirana uz pomoc alata Adobe XD, a ciji klip se nalazi na samom pocetku ove galerije. Kurs je namjenjen osobama koje zele savladati osnove HTML-a i CSS-a</p>
+                <a href="https://www.youtube.com/watch?v=8gNrZ4lAnAw&t=3606s" target="_blank">YouTube Link ></a>
+            </figcaption>
+        </figure>
+        <!-- 04 -->
+        <figure class="video-element">
+            <div class="okvir">
+                <!-- Preuzeto sa YT -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hnCmSXCZEpU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <figcaption class="informacije">
+                <h2>Bootstrap</h2>
+                <h1>Bootstrap 4 in 2018</h1>
+                <p>Osnove Bootrstrapa u nepunih sat vremena. Kurs je namjenjen osoba koje zele da se upoznaju sa osnovim klasama i nacinom rada sa Bootstrapom, njegovom implementacijom te sticanjem osnova za naknadno usavrsavanje i ucenje istog.</p>
+                <a href="https://www.youtube.com/watch?v=hnCmSXCZEpU&t=462s" target="_blank">YouTube Link ></a>
+            </figcaption>
+        </figure>
+
+        <!-- FOOTER - HTML -->
+        <footer class="ftr">
+            <div class="footer-content">
+                <h2>MREŽE</h2>
+                <div class="social">
+                    <div class="social_page"><img src="assets/behanceW.svg"><a href="https://www.behance.net/kredzepagic" target="_blank">BEHANCE</a></div>
+                    <div class="social_page"><img src="assets/facebookW.svg"><a href="https://www.facebook.com/redzepagick/" target="_blank">FACEBOOK</a></div>
+                    <div class="social_page"><img src="assets/instagramW.svg"><a href="https://www.instagram.com/kerimredz/" target="_blank">INSTAGRAM</a></div>
+                </div>
+                <div class="to-top">
+                    <a href="#"><img src="assets/arrow.svg">Nazad na početak</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>

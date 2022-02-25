@@ -1,0 +1,470 @@
+/* PMF 2020, MAT, IT */
+/* PROJEKAT 1: Portfolio */
+/* Autor: Kerim Redžepagić */
+
+/* Stranica: POCETNA */
+
+/* ------------------------------ */
+/* Početna - Sekcija 01 - LANDING */
+/* ------------------------------ */
+
+/* Sve animacije su urađene uz pomoć: https://animista.net/ */
+
+.landing{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: auto 10% auto 10%;
+}
+
+.landing .info{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    margin: auto auto auto 0px;
+}
+
+.landing .info .info-content{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 0px;
+}
+
+.landing .info .info-content img{
+    width: 200px;
+    margin-left: -20px;
+    animation: text-focus-in 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.landing .info .info-content h1{
+    font-weight: 100;
+    font-size: 56px;
+    animation: text-focus-in 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation-delay: 0.3s;
+}
+
+.landing .info .info-content h2{
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0px;
+    animation: text-focus-in 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation-delay: 0.5s;
+}
+
+.landing .info .info-content h2 span{
+    color: red;
+}
+
+.landing .info .info-content p{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 24px;
+    animation: text-focus-in 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation-delay: 0.7s;
+}
+
+.landing .info .info-content strong{
+    color: red;
+}
+
+.landing .info .info-content .kontakt-dugme{
+    background-image: linear-gradient(to right, #FF0000, #FF0066, #FF4747);
+    margin-top: 20px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    cursor: pointer;
+    width: 40%;
+    box-shadow: 0 0 0 rgb(255, 1, 1);
+    animation: pulse 3s ease-in-out infinite, text-focus-in 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation-delay: 1s;
+    outline: none;
+}
+
+.landing .slika{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    margin: auto auto 0px auto;
+    animation: text-focus-in 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.landing .slika img{
+    display: flex;
+    margin: auto 0px 0px auto;
+    width: 90%;
+    object-fit: cover;
+}
+
+/* ----------------------------- */
+/* Početna - Sekcija 02 - O MENI */
+/* ----------------------------- */
+.omeni{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto auto auto;
+}
+
+.omeni .naslov{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.omeni .naslov h1 span{
+    color: red;
+}
+
+.omeni .sadrzaj{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 30px auto auto auto;
+}
+
+.omeni .sadrzaj .tekst{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 0px;
+}
+
+.omeni .sadrzaj .tekst:nth-child(2){
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 100px;
+}
+
+.omeni .sadrzaj .tekst h2{
+    margin: 10px auto 0px auto;
+}
+
+.omeni .sadrzaj .tekst p{
+    margin: 10px auto 10px auto;
+}
+
+.omeni .sadrzaj .tekst a{
+    color: red;
+    opacity: 0.5;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.omeni .sadrzaj .tekst a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.omeni .sadrzaj .tekst a:active{
+    color: white;
+}
+
+.omeni .sadrzaj .slika{
+    width: 40%;
+}
+
+.omeni .sadrzaj .slika img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.omeni .sadrzaj .tekst:nth-child(2) .social{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto auto 0px;
+}
+
+.omeni .sadrzaj .tekst:nth-child(2) .social .social_page{
+    display: flex;
+    flex-direction: row;
+    margin: auto 20px 20px 0px;
+}
+
+.omeni .sadrzaj .tekst:nth-child(2) .social .social_page img{
+    margin: auto 15px auto 0px;
+}
+
+.omeni .sadrzaj .tekst:nth-child(2) .social .social_page a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* ----------------------------- */
+/* Početna - Sekcija 03 - SKILLS */
+/* ----------------------------- */
+.iskustvo{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.iskustvo .naslov{
+    width: 50%;
+    display: flex;;
+    margin: 150px auto auto auto;
+    text-align: center;
+}
+
+.iskustvo .naslov h1 span{
+    color: red;
+}
+
+.iskustvo .slika{
+    width: 40%;
+    margin: 30px auto 50px auto;
+}
+
+.iskustvo .slika img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.iskustvo .informacije{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.iskustvo .informacije .info-holder{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px auto auto;
+}
+
+.iskustvo .informacije .info-holder span{
+    color: red;
+}
+
+.iskustvo .informacije .info-holder h2{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.iskustvo .informacije .info-holder p{
+    margin-bottom: 10px;
+}
+
+/* ------------------------------- */
+/* Početna - Sekcija 04 - PROJECTS */
+/* ------------------------------- */
+
+.projekti{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.projekti .naslov{
+    width: 50%;
+    display: flex;;
+    margin: 150px auto auto auto;
+    text-align: center;
+}
+
+.projekti .naslov h1 span{
+    color: red;
+}
+
+.projekti img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.projekti h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.projekti h2 span{
+    color: red;
+}
+
+.projekti p{
+    margin: 30px auto auto auto;
+    width: 50%;
+    text-align: center;
+}
+
+.projekti .ostali-projekti{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 50px auto auto auto;
+    justify-content: center;
+}
+
+.projekti .ostali-projekti .projekat{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto 30px auto 0px;
+}
+
+.projekti .ostali-projekti .projekat img{
+    margin: 0px auto auto -25px;
+}
+
+.projekti .ostali-projekti .projekat p{
+    text-align: left;
+    font-size: 16px;
+    margin: 10px auto auto 0px;
+}
+
+.projekti .ostali-projekti .projekat h1{
+    text-align: left;
+    font-size: 24px;
+    margin: 10px auto auto 0px;
+}
+
+.projekti .ostali-projekti .projekat a{
+    text-decoration: none;
+    text-align: left;
+    margin-left: 0px;
+    font-size: 16px;
+    margin: 0px auto auto 0px;
+    font-weight: 200;
+    color: red;
+}
+
+.projekti .ostali-projekti .projekat a:hover{
+    text-decoration: underline;
+}
+
+.projekti .ostali-projekti .projekat a:visited{
+    color: rgb(252, 132, 132);
+}
+
+/* ----------------------------------- */
+/* Početna - Sekcija 05 - CONTACT FORM */
+/* ----------------------------------- */
+
+/* KONTAKT FORMA Urađena uz pomoć W3 schools */
+/* https://www.w3schools.com/howto/howto_css_contact_form.asp */
+/* https://www.w3schools.com/cssref/sel_valid.asp */
+/* https://www.w3schools.com/cssref/sel_invalid.asp */
+
+.kontakt{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 200px auto;
+    flex-direction: column;
+}
+
+.kontakt form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+
+.kontakt form label{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px auto 10px auto;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.kontakt form input[type=text],[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #171717;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+    outline: none;
+}
+
+.kontakt form input[type=text]:valid,[type=email]:valid{
+    border-bottom: 1px solid rgb(11, 255, 3);
+}
+
+.kontakt form input[type=text]:invalid,[type=email]:invalid{
+    border-bottom: 1px solid #ccc;
+}
+
+.kontakt form textarea:valid{
+    border-bottom: 1px solid rgb(11, 255, 3);
+}
+
+.kontakt form textarea:invalid{
+    border-bottom: 1px solid #ccc;
+}
+
+.kontakt form input[type=submit] {
+    width: 30%;
+    background-image: linear-gradient(to right, #FF0000, #FF0066, #FF4747);
+    color: white;
+    padding: 14px 20px;
+    margin: 20px auto auto 0px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+}
+
+.kontakt form textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #171717;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    outline: none;
+    resize: vertical
+}
+
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+  
+@keyframes pulse{
+    0% {
+        box-shadow: 0 0 100px rgba(252, 4, 16, 0.2);
+    }
+    70% {
+        box-shadow: 0 0 100px rgba(255, 0, 0, 0.747);
+    }
+    100% {
+        box-shadow: 0 0 100px rgba(236, 16, 46, 0.2);
+    }
+}

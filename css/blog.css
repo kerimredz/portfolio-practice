@@ -1,0 +1,105 @@
+/* PMF 2020, MAT, IT */
+/* PROJEKAT 1: Portfolio */
+/* Autor: Kerim Redžepagić */
+
+/* Stranica: BLOG */
+
+/* ------------- */
+/* Blog - Naslov */
+/* ------------- */
+
+.page-info{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.page-info .headings{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.page-info .headings h1 span{
+    color: red;
+}
+
+/* ------------- */
+/* Blog - Clanci */
+/* ------------- */
+
+.clanci{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+/* Dizajn clanka uz pomoc iduceg tutorijala i doradu koda */
+/* ---- https://www.youtube.com/watch?v=SaO2hO-4yEY ---- */
+
+.clanci .clanak{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+    /* Slika preuzeta sa: */
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url('../assets/clanak_01.jpg');
+    background-size: cover;
+}
+
+.clanci .clanak:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 0, 0)), url('../assets/clanak_01.jpg');
+}
+
+.clanci .clanak:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+    /* Slika preuzeta sa: https://www.techrepublic.com/article/apples-m1-a-closer-look-at-the-chip-inside-of-the-latest-mac/ */
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url('../assets/clanak_02.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.clanci .clanak:nth-child(2):hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 0, 0)), url('../assets/clanak_02.jpg');
+}
+
+.clanci .clanak .infoholder{
+    margin-top: 25%;
+    margin-left: 3%;
+}
+
+.clanci .clanak .infoholder p{
+    opacity: 0.8;
+}
+
+.clanci .clanak .infoholder a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.clanci .clanak .infoholder a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.clanci .clanak .infoholder a:visited{
+    color: rgb(197, 197, 197);
+}

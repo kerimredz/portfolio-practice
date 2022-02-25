@@ -1,0 +1,80 @@
+/* PMF 2020, MAT, IT */
+/* PROJEKAT 1: Portfolio */
+/* Autor: Kerim Redžepagić */
+
+/* Stranica: DIZAJN GALERIJA */
+
+/* ------------------------ */
+/* Dizajn galerija - Naslov */
+/* ------------------------ */
+
+.page-info{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: left;
+    justify-content: center;
+}
+
+.page-info .headings{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.page-info .headings h1 span{
+    color: red;
+}
+
+/* -------------------------- */
+/* Dizajn galerija - Galerija */
+/* -------------------------- */
+
+.galerija-element{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto 50px auto;
+    justify-content: center;
+}
+
+.galerija-element .grupa{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.galerija-element .grupa .slika{
+    width: 100%;
+}
+
+.galerija-element .grupa img{
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+}
+
+.galerija-element .grupa video{
+    width: 100%;
+    outline: none;
+    height: 80%;
+}
+
+.galerija-element .grupa .informacije{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.galerija-element .grupa .informacije h2{
+    color: red;
+    text-transform: uppercase;
+}
+
+.galerija-element .grupa .informacije p{
+    opacity: 0.4;
+}

@@ -1,0 +1,88 @@
+/* PMF 2020, MAT, IT */
+/* PROJEKAT 1: Portfolio */
+/* Autor: Kerim Redžepagić */
+
+/* Stranica: VIDEO GALERIJA */
+
+/* ----------------------- */
+/* Video galerija - Naslov */
+/* ----------------------- */
+.page-info{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: left;
+    justify-content: center;
+}
+
+.page-info .headings{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.page-info .headings h1 span{
+    color: red;
+}
+
+/* -------------------------- */
+/* Video galerija - Galerija  */
+/* -------------------------- */
+
+.video-element{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto 50px auto;
+}
+
+.video-element .informacije{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto auto 20px;
+    justify-content: center;
+    width: auto;
+}
+
+.video-element .informacije h2{
+    text-align: left;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: normal;
+    color: red;
+}
+
+.video-element .informacije h1{
+    text-align: left;
+    font-weight: 700;
+    font-size: 32px;
+    
+}
+
+.video-element .informacije p{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: #ACACAC;
+}
+
+.video-element .informacije a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.video-element .informacije a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.video-element .informacije a:visited{
+    color: #ACACAC;
+}

@@ -1,0 +1,68 @@
+/* PMF 2020, MAT, IT */
+/* PROJEKAT 1: Portfolio */
+/* Autor: Kerim Redžepagić */
+
+/* FOOTER CSS */
+
+.ftr {
+    height: 200px;
+    background-image: linear-gradient(to right, #0a0a0a, #181718);
+    width: 100%;
+    border-top: 1px solid rgb(49, 49, 49);
+}
+
+.ftr .footer-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.ftr .footer-content h2{
+    text-align: center;
+    font-weight: 200;
+    margin-top: 20px
+}
+
+.ftr .footer-content .social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 15px auto auto 0px;
+}
+
+.ftr .footer-content .social .social_page{
+    display: flex;
+    flex-direction: row;
+    margin: auto 20px 20px 0px;
+}
+
+.ftr .footer-content .social .social_page img{
+    margin: auto 15px auto 0px;
+}
+
+.ftr .footer-content .social .social_page a{
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.ftr .footer-content .to-top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.ftr .footer-content .to-top a{
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
+
+.ftr .footer-content .to-top img{
+    margin-right: 10px;
+}

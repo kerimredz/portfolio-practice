@@ -1,0 +1,61 @@
+/* PMF 2020, MAT, IT */
+/* PROJEKAT 1: Portfolio */
+/* Autor: Kerim Redžepagić */
+
+/* NAVBAR CSS */
+
+.navigacija{
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
+    height: 9vh;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-weight: 400;
+    /* animation: AnimationName 5s ease infinite; */
+    border-bottom: 1px solid rgb(46, 46, 46);
+}
+
+.navigacija ul{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+
+.navigacija ul li{
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    padding: auto;
+}
+
+.navigacija ul li img{
+    object-fit: cover;
+}
+
+.navigacija ul li a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navigacija ul li a span{
+    color: red;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.navigacija ul li a:hover{
+    opacity: 1;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
